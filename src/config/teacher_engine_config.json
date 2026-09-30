@@ -1,0 +1,83 @@
+{
+  "name": "TeacherEngineContract",
+  "version": "1.0.0",
+  "description": "Standardized universal JSON response contract between Teacher Engine backend and frontend",
+  "schema": {
+    "success": true,
+    "teacher_response": {
+      "title": "",
+      "short_answer": "",
+      "learning_objective": "",
+      "prerequisites": [],
+      "intuition": "",
+      "explanation": "",
+      "deep_explanation": "",
+      "steps": [],
+      "formulas": [],
+      "derivation": [],
+      "example": {},
+      "applications": [],
+      "common_mistakes": [],
+      "advanced_perspective": "",
+      "research_perspective": "",
+      "summary": "",
+      "check_question": ""
+    },
+    "visual_learning": {
+      "required": true,
+      "visual_type": "",
+      "title": "",
+      "description": "",
+      "purpose": "",
+      "elements": [],
+      "steps": [],
+      "diagram": {},
+      "graph": {},
+      "graphs": [],
+      "multi_graph_layout": "none",
+      "chart": {},
+      "image_prompt": ""
+    },
+    "sources": [],
+    "teaching_metadata": {
+      "student_level": "",
+      "difficulty": "",
+      "topic": "",
+      "concepts": [],
+      "estimated_learning_time": ""
+    }
+  },
+  "supported_levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced",
+    "Research/PhD"
+  ],
+  "visual_types": [
+    "function_graph",
+    "algorithm_visualization",
+    "architecture",
+    "concept_map",
+    "data_flow",
+    "numerical_chart"
+  ],
+  "endpoints": {
+    "professor_teach": "/api/classroom/professor/teach",
+    "interrupt_doubt": "/api/classroom/interrupt/doubt",
+    "slides_generate": "/api/classroom/slides/generate"
+  },
+  "mathematics_reasoning": {
+    "enabled": true,
+    "pipeline_steps": [
+      "identify_variables",
+      "define_symbols",
+      "explain_formula",
+      "explain_formula_meaning",
+      "explain_derivation",
+      "substitute_values_step_by_step",
+      "calculate_answer",
+      "explain_result",
+      "validate_calculation"
+    ]
+  }
+}
